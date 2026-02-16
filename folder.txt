@@ -1,0 +1,51 @@
+CIA 3
+├── backend
+│   ├── app
+│   │   ├── api
+│   │   │   ├── __init__.py
+│   │   │   ├── endpoints.py
+│   │   ├── core
+│   │   │   ├── __init__.py
+│   │   │   ├── config.py
+│   │   │   ├── exceptions.py
+│   │   ├── db
+│   │   │   ├── __init__.py
+│   │   │   ├── session.py
+│   │   │   ├── models.py
+│   │   ├── schemas
+│   │   │   ├── __init__.py
+│   │   │   ├── dtos.py
+│   │   ├── services
+│   │   │   ├── __init__.py
+│   │   │   ├── ingestion.py
+│   │   │   ├── generator.py
+│   │   │   ├── report.py
+│   │   ├── __init__.py
+│   │   ├── main.py
+│   ├── requirements.txt
+│   ├── .env
+├── frontend
+│   ├── public
+│   │   ├── index.html
+│   ├── src
+│   │   ├── components
+│   │   │   ├── FileUpload.jsx
+│   │   │   ├── QuizConfig.jsx
+│   │   │   ├── QuestionCard.jsx
+│   │   │   ├── ProctorAlert.jsx
+│   │   │   ├── ResultsDashboard.jsx
+│   │   ├── pages
+│   │   │   ├── Home.jsx
+│   │   │   ├── QuizPage.jsx
+│   │   │   ├── ResultPage.jsx
+│   │   ├── services
+│   │   │   ├── api.js
+│   │   ├── App.jsx
+│   │   ├── main.jsx
+│   │   ├── index.css
+│   ├── package.json
+│   ├── vite.config.js
+├── data
+│   ├── uploads
+│   ├── indices
+│   ├── quiz.db

@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.pyc
+venv/
+.venv/
+
+# Node
+node_modules/
+dist/
+.npm/
+
+# IDE/OS
+.vscode/
+.idea/
+*.DS_Store
+
+# Environment & Sensitive Data
+.env
+data/uploads/
+data/indices/
+data/models/
+data/quiz.db
+backend/models/
